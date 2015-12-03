@@ -1,8 +1,4 @@
 <?php 
 
-require_once("lib/db/DbOperation.php");
-
-$DBO = new DbOperation();
-
-$getDb = $DBO->getDb();
+$route["default_controller"] = "home";
 

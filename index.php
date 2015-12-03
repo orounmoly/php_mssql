@@ -1,3 +1,4 @@
 <?php 
-    require_once('config/route.php');
- ?>
+    
+    require "lib/php_core_system.php";
+    echo run();

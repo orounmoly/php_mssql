@@ -43,7 +43,7 @@ class DbOperation {
     {
         $conn = $this->connect();
         
-        $sql = "select * from sys_menu where status = 1";
+        $sql = "select * from sys_menu where status = 0";
         $stmt = sqlsrv_query($conn,$sql);        
         if( $stmt === false ) die( print_r( sqlsrv_errors(), true));
         $result = array();
